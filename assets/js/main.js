@@ -1,8 +1,33 @@
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+// gen keycode map 
+KeyCodeMap = {}
+const KeyCodeOf_A = 65  // 'A'
+const KeyCodeOf_0 = 48  // '1'
+for (let index = 0; index < 26; index++) {
+	KeyCodeMap[KeyCodeOf_A + index] = String.fromCharCode(KeyCodeOf_A + index)
+}
+for (let index = 0; index < 10; index++) {
+	KeyCodeMap[KeyCodeOf_0 + index] = String.fromCharCode(KeyCodeOf_0 + index)
+}
+
+// console.log(KeyCodeMap)
+
+// password
+Password = {}
+Password.Expect = 'test'
+Password.Input = 0
+Password.Expect = Password.Expect.toUpperCase()
+document.onkeydown = () => {
+	if (KeyCodeMap[event.keyCode] == Password.Expect[Password.Input]) {
+		Password.Input += 1
+	} else {
+		Password.Input = 0
+	}
+
+	if (Password.Input == Password.Expect.length) {
+		location = "elements.html"
+		// location = "https://www.w3school.com.cn/jsref/jsref_obj_string.asp"
+	}
+};
 
 (function($) {
 
