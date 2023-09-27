@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 
 # the avatar on sidebar, support local or CORS resources
 # TODO: the avatar does not appear 
-avatar: _site/assets/img/avatar.pngb 
+avatar: _site/assets/img/avatar.png
 # avatar: '_site/assets/img/avatar.png'
 
 # boolean type, the global switch for TOC in posts.
