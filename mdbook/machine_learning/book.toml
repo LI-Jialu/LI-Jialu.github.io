@@ -1,0 +1,9 @@
+[book]
+authors = ["LI-Jialu"]
+language = "en"
+multilingual = false
+src = "src"
+title = "machine_learning"
+
+[preprocessor.katex]
+after = ["links"]
