@@ -6,5 +6,4 @@ categories: [Math, ML&AI, Linear Algebra]
 tags: [linear algebra, matrix calculus, gradient descnet, stochastic gradient descent, svm]     # TAG names should always be lowercase
 ---
 
-This series provides an overview of machine learning, covering topics from basic linear algebra to advanced algorithms. For detailed content, [click here]({{ site.baseurl }}{% link mdbook/machine_learning/book/index.html %})! 
-
+This series provides an overview of machine learning, covering topics from basic linear algebra to advanced algorithms. 
