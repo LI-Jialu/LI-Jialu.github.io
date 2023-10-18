@@ -7,6 +7,21 @@ tags: [linear algebra]     # TAG names should always be lowercase
 ---
 
 # Matrix Calculus
+<!-- Block math, keep all blank lines -->
+
+$$
+LaTeX_math_expression
+$$
+
+<!-- Inline math in lines, NO blank lines -->
+
+"Lorem ipsum dolor sit amet, $$ LaTeX_math_expression $$ consectetur adipiscing elit."
+
+<!-- Inline math in lists, escape the first `$` -->
+
+1. \$$ LaTeX_math_expression $$
+2. \$$ LaTeX_math_expression $$
+3. \$$ LaTeX_math_expression $$
 
 ## Conclusion 
 ### Scalar to vector: the same shape as vector 
