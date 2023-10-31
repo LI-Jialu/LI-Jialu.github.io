@@ -92,4 +92,4 @@ This kernel function assigns high similarity (near 1) to points that are close t
 尽管高斯过程是在整个函数空间上定义的（即无限多的点），但我们实际上只关心我们观察到的点或我们想要进行预测的点。其他所有的点，尽管它们是无限的，对我们的推断没有直接的影响。
 
 ## Reference 
-https://www.zhihu.com/question/46631426/answer/1735470753?utm_psn=1698678822432731137&utm_id=0
+https://www.zhihu.com/question/46631426/answer/1735470753

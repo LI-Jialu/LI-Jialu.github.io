@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Docker cheatsheet
-date: 2023-10-09 20:08:02 +/-5000
+date: 2023-10-27 20:08:02 +/-5000
 categories: [env]
 tags: [docker]     # TAG names should always be lowercase
 ---
 # Docker cheatsheet 
 
 ## Useful commands 
+
 | Command/Aspect        | Docker Image Command (镜像命令)                | Docker Container Command (容器命令)          |
 |-----------------------|----------------------------------------------|----------------------------------------------|
 | 创建 (Create)         | `docker build`                             | `docker run`                                |
@@ -37,6 +38,7 @@ I found this [docker official cheatsheet](https://docs.docker.com/get-started/do
 
 ## Docker Compose 
 ### 工作流程
+
 | 步骤                         | 操作                                       |
 | ---------------------------- | ------------------------------------------ |
 | 写 Dockerfile               | 写 Dockerfile，包含所需环境和依赖。           |
