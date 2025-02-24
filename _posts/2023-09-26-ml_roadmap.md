@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ML Matrix Calculus
+title: Machine Learning Roadmap
 date: 2023-09-25 20:08:02 +/-5000
 categories: [ML]
 tags: [roadmap]     # TAG names should always be lowercase
@@ -8,17 +8,14 @@ tags: [roadmap]     # TAG names should always be lowercase
 
 # Overview
 
-<!-- ## TOC 
-- [Recap: Linear Algebra](#recap-linear-algebra)
-- [Learning Theory](#learning-theory)
-- [Machine Learning Techniques](#machine-learning-techniques) -->
 
 ## Recap: Linear Algebra
 - **Matrix Operations**
 - **Matrix Decomposition**
 - **Matrix Calculus**
 
-## Learning Theory
+## The Learning Theory
+- [**Is Learning Feasible?**  ]({{ site.baseurl }}{% link _posts/2023-10-31-learning-feasible.md %})
 - **Theory of Generalization**
 - **VC Dimension**
 - **Bias & Variance** 
@@ -44,6 +41,9 @@ tags: [roadmap]     # TAG names should always be lowercase
     $$\max_w \prod_{n=1}^N \theta(y_n w^T x_n) = \min_w \sum_{n=1}^N \log(1+e^{-y_nw^Tx_N})$$
   
 - **Support Vector Machine (SVM)**
+- **CNN**
+- **RNN**
+- **Transformer** 
 
 ## References
 - [Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)

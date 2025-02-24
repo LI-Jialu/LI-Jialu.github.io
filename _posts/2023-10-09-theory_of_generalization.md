@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ML Theory of generalization
+title: Theory of generalization
 date: 2023-10-09 20:08:02 +/-5000
 categories: [ML]
 tags: [generalization]     # TAG names should always be lowercase
@@ -9,19 +9,24 @@ tags: [generalization]     # TAG names should always be lowercase
 # Theory of Generalization 
 
 ## Intuition 
-The final aim of our learning process is to minimize the genralization error, which is exactly the test error. 
+The final aim of our learning process is: 
 
-Here are two steps needed to achieve it: 
+$$
+E(h) := E_{te}(h) := E_{out}(h) \approx 0
+$$
 
-1. $E_{tr}(h) = 0$ 
+It's achieved through: $E_{tr}(h) \approx 0$  and $E(h) \approx E_{tr}(h)$. 
 
-    $E_{tr}(h) = \frac{1}{N} \sum_{n=1}^N e(h(x_n), f(x_n))$
-    - We try to achieve the first step using optimization, talked before. 
+First, $E_{tr}(h) = \frac{1}{N} \sum_{n=1}^N e(h(x_n), f(x_n))\approx 0$ is achived using optimization as we discussed before. 
 
-2.  $E(h) = E_{tr}(h)$ 
-   
-    $E_{te}(h) = \frac{1}{M} \sum_{m=1}^M e(h(x_m), f(x_m))$
-    
-    $E(h) = \mathbb{E}_{x \sim \mathcal{D}}[e(h(x), f(x))] = E{te}(h)$
+Second, $E(h) = \frac{1}{M} \sum_{m=1}^M e(h(x_m), f(x_m))\approx E_{tr}(h)$ will be further discussed here. 
 
-    - So, this topic will focus on this step. 
+## Start from Hoffeding equations 
+
+## Dichotomy 
+
+## Growth Function 
+
+## VC Dimension 
+
+## Break Point 
